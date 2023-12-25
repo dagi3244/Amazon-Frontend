@@ -27,7 +27,7 @@ function Payment() {
   const [processing, setProcessing] = useState("");
 
   // eslint-disable-next-line
-  const [clientSecret, setClientSecret] = useState(true);
+  const [clientSecret, setClientSecret] = useState("");
   useEffect(() => {
     //generate the special strippe secret allows as to charge customer
     const getClientSecret = async () => {
